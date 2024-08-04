@@ -1,0 +1,8 @@
+#append these configuration to /boot/grub/grub.cfg
+
+### BEGIN myOS ###
+menuentry 'whatever string you want to display in grubMenu'{
+	multiboot /boot/mykernel.bin
+	boot
+}
+### END myOS ###
